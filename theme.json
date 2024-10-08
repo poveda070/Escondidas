@@ -1,0 +1,233 @@
+{
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "color": "#ca0b0b",
+                    "name": "Color 1",
+                    "slug": "custom-color-1"
+                },
+                {
+                    "color": "#eaa109",
+                    "name": "Color 2",
+                    "slug": "custom-color-2"
+                },
+                {
+                    "color": "#71a6ae",
+                    "name": "Color 3",
+                    "slug": "custom-color-3"
+                },
+                {
+                    "color": "#18668c",
+                    "name": "Color 4",
+                    "slug": "custom-color-4"
+                },
+                {
+                    "color": "#06394d",
+                    "name": "Color 5",
+                    "slug": "custom-color-5"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "620px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "units": [
+                "%",
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
+                    "name": "Tasman",
+                    "slug": "tasman",
+                    "fontFamily": "Tasman",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Tasman",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/tasman/tasman-400-normal.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Astonpoliz",
+                    "slug": "astonpoliz",
+                    "fontFamily": "Astonpoliz",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Astonpoliz",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/astonpoliz/astonpoliz-400-normal.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Roboto Slab",
+                    "slug": "roboto-slab",
+                    "fontFamily": "\"Roboto Slab\", serif",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-600-normal.woff2"
+                            ],
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-100-normal.woff2"
+                            ],
+                            "fontWeight": "100",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-200-normal.woff2"
+                            ],
+                            "fontWeight": "200",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-300-normal.woff2"
+                            ],
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-500-normal.woff2"
+                            ],
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-700-normal.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-800-normal.woff2"
+                            ],
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/roboto-slab-900-normal.woff2"
+                            ],
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Roboto Slab\""
+                        }
+                    ]
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "blocks": {
+            "core/post-content": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--system-font)"
+                }
+            },
+            "core/post-featured-image": {
+                "spacing": {
+                    "padding": {
+                        "bottom": "0",
+                        "top": "0"
+                    }
+                }
+            }
+        },
+        "color": {
+            "background": "var(--wp--preset--color--custom-color-4)",
+            "text": "var(--wp--preset--color--white)"
+        },
+        "elements": {
+            "button": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-slab)"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--custom-color-5)"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "#ff5656"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-slab)"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--custom-color-2)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--astonpoliz)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--roboto-slab)",
+            "fontSize": "var(--wp--preset--font-size--small)",
+            "lineHeight": "1.5"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json"
+}
